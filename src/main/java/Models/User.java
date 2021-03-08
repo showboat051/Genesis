@@ -3,9 +3,9 @@ package Models;
 public class User {
 
 
-    String firstName;
-    String lastName;
-    String clearance;
+   private String firstName;
+    private String lastName;
+    private String clearance;
 
     public User(String firstName, String lastName, String clearance) {
         this.firstName = firstName;
