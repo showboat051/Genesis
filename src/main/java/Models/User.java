@@ -35,7 +35,7 @@ public class User {
 
     public void setClearance(String clearance) {
         this.clearance = clearance;
-    }
+    } 
 
 
 

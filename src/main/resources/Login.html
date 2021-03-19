@@ -1,27 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+<head lang="en">
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="welcome.js"></script>
 </head>
 <body>
 <div id="login-form">
 
-    <form action="Welcome.html">
+    <form action="Welcome.html" onclick="welcome()" method="post" >
         <h1>Welcome, You Can Log in Here!</h1>
-        <label for="fname">First Name:</label><br>
-        <input type="text" id="fname" name="fname">
+        <label for="firstName">First Name:</label><br>
+        <input type="text" id="firstName" name="firstName">
         <br>
         <br>
-        <label for="lname">Last Name:</label><br>
-        <input type="text" id="lname" name="lname">
+        <label for="lastName">Last Name:</label><br>
+        <input type="text" id="lastName" name="lastName">
         <br>
         <br>
-        <label for="teammate">What Is Your Clearance?</label><br>
+        <label for="clearance">What Is Your Clearance?</label><br>
 
 
-        <input type="radio" id="teammate" name="teammate" value="teammate">
-        <label for="teammate">Teammate</label><br>
+        <input type="radio" id="clearance" name="clearance" value="clearance">
+        <label for="clearance">Teammate</label><br>
         <input type="radio" id="admin" name="admin" value="admin">
         <label for="admin">Admin</label><br>
         <input type="submit" value="Submit">
